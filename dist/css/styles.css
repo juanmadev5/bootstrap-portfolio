@@ -10959,6 +10959,23 @@ html {
   transform: scale(1.1);
 }
 
+.btn-custom {
+  background-color: #ff5733;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-custom:hover {
+  background-color: #ff2e00;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
 .callout {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
@@ -11012,9 +11029,13 @@ footer.footer .social-link:hover {
 .masthead {
   min-height: 30rem;
   position: relative;
-  display: table;
+  display: flex;
   width: 100%;
   height: auto;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
@@ -11046,11 +11067,14 @@ footer.footer .social-link:hover {
 .masthead h2, .masthead .h2 {
   margin-top: 16px;
   font-size: xlarge;
+  text-align: center;
 }
 
 .masthead h5, .masthead .h5 {
-  margin: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   width: 100%;
+  text-align: center;
 }
 
 .portfolio-item {
@@ -11119,4 +11143,39 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tech-card {
+  background-color: #252525;
+  padding: 20px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tech-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.tech-card .service-icon {
+  font-size: 2.5rem;
+  color: #ff5733;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.tech-card:hover .service-icon {
+  color: #ff2e00;
+}
+
+.tech-card h4, .tech-card .h4 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.tech-card h4 strong, .tech-card .h4 strong {
+  color: #ffffff;
 }

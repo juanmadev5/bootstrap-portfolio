@@ -5,9 +5,13 @@
 .masthead {
     min-height: 30rem;
     position: relative;
-    display: table;
+    display: flex;
     width: 100%;
     height: auto;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     padding-top: 8rem;
     padding-bottom: 8rem;
     background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../assets/img/bg-masthead.jpg');
@@ -38,8 +42,11 @@
 .masthead h2 {
     margin-top: 16px;
     font-size: xlarge;
+    text-align: center;
 }
 .masthead h5 {
-    margin: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     width: 100%;
+    text-align: center;
 }
