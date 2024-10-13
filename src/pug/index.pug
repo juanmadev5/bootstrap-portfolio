@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description' content='')
         meta(name='author' content='')
 
-        title Stylish Portfolio - Start Bootstrap Template
+        title Portafolio de Juan Manuel Velázquez 
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -33,146 +33,144 @@ html(lang='en')
         nav#sidebar-wrapper
             ul.sidebar-nav
                 li.sidebar-brand
-                    a(href='#page-top') Start Bootstrap
+                    a(href='#page-top') Inicio Bootstrap
                 li.sidebar-nav-item
-                    a(href='#page-top') Home
+                    a(href='#page-top') Inicio
                 li.sidebar-nav-item
-                    a(href='#about') About
+                    a(href='#about') Acerca de
                 li.sidebar-nav-item
-                    a(href='#services') Services
+                    a(href='#services') Servicios
                 li.sidebar-nav-item
-                    a(href='#portfolio') Portfolio
+                    a(href='#portfolio') Portafolio
                 li.sidebar-nav-item
-                    a(href='#contact') Contact
+                    a(href='#contact') Contacto
 
         // Header
         header.masthead.d-flex.align-items-center
             .container.px-4.px-lg-5.text-center
-                h1.mb-1 Stylish Portfolio
-                h3.mb-5
-                    em A Free Bootstrap Theme by Start Bootstrap
-                a.btn.btn-primary.btn-xl(href='#about') Find Out More
-
+                img(src="assets/img/profile_photo.jpg")
+                h2 Juan Manuel Velázquez
+                h5 Desarrollador Android, Flutter y Web Full Stack. <br> Apasionado por la tecnología y la programación.
+                a.btn.btn-primary.btn-xl(href='#about') Conoce más sobre mi
         // About
         section#about.content-section.bg-light
             .container.px-4.px-lg-5.text-center
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-lg-10
-                        h2 Stylish Portfolio is the perfect theme for your next project!
+                        h2 Sobre mí
                         p.lead.mb-5
-                            | This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-                            a(href='https://unsplash.com/') Unsplash
-                            | !
-                        a.btn.btn-dark.btn-xl(href='#services') What We Offer
+                            | Soy Estudiante de Ingeniería Informática, Técnico Informático, Desarrollador Android, Flutter y Web Full Stack. Me destaco por la creación de aplicaciones móviles nativas de Android, multiplataforma y sitios web de alta calidad.
+                        a.btn.btn-dark.btn-xl(href='#services') Mis habilidades
 
         // Services
         section#services.content-section.bg-primary.text-white.text-center
             .container.px-4.px-lg-5
                 .content-section-heading
-                    h3.text-secondary.mb-0 Services
-                    h2.mb-5 What We Offer
-                .row.gx-4.gx-lg-5
+                    h2.text-secondary.mb-4 Mi Stack 
+                .row.gx-4.gx-lg-5.mb-2
                     .col-lg-3.col-md-6.mb-5.mb-lg-0
                         span.service-icon.rounded-circle.mx-auto.mb-3
-                            i.icon-screen-smartphone
+                            i.fa-html5
                         h4
-                            strong Responsive
-                        p.text-faded.mb-0 Looks great on any screen size!
+                            strong HTML
                     .col-lg-3.col-md-6.mb-5.mb-lg-0
                         span.service-icon.rounded-circle.mx-auto.mb-3
-                            i.icon-pencil
+                            i.icon-rocket
                         h4
-                            strong Redesigned
-                        p.text-faded.mb-0 Freshly redesigned for Bootstrap 5.
+                            strong React
                     .col-lg-3.col-md-6.mb-5.mb-md-0
                         span.service-icon.rounded-circle.mx-auto.mb-3
-                            i.icon-like
+                            i.fa-js
                         h4
-                            strong Favorited
-                        p.text-faded.mb-0
-                            | Millions of users
-                            i.fas.fa-heart
-                            | Start Bootstrap!
+                            strong JavaScript
                     .col-lg-3.col-md-6
                         span.service-icon.rounded-circle.mx-auto.mb-3
-                            i.icon-mustache
+                            i.fa-css3
                         h4
-                            strong Question
-                        p.text-faded.mb-0 I mustache you a question...
+                            strong CSS
 
         // Callout
         section.callout
             .container.px-4.px-lg-5.text-center
                 h2.mx-auto.mb-5
-                    | Welcome to
-                    em your
-                    | next website!
-                a.btn.btn-primary.btn-xl(href='https://startbootstrap.com/theme/stylish-portfolio/') Download Now!
+                    | ¡Descarga mi CV!
+                h4 Conoce mas sobre mi experiencia en el mundo del desarrollo
+                h5 Estoy listo para hacer tu proyecto realidad
+                a.btn.btn-primary.btn-xl(href='https://startbootstrap.com/theme/stylish-portfolio/') Descargar CV!
 
         // Portfolio
         section#portfolio.content-section
             .container.px-4.px-lg-5
                 .content-section-heading.text-center
-                    h3.text-secondary.mb-0 Portfolio
-                    h2.mb-5 Recent Projects
+                    h3.text-secondary.mb-0 Portafolio
+                    h2.mb-5 Proyectos recientes
                 .row.gx-0
                     .col-lg-6
-                        a.portfolio-item(href='#!')
+                        a.portfolio-item(href='https://github.com/juanmadev5/Tienda_Ropa_POOBootcamp')
                             .caption
                                 .caption-content
-                                    .h2 Stationary
-                                    p.mb-0 A yellow pencil with envelopes on a clean, blue backdrop!
+                                    .h2 Sistema de ventas de tienda de ropa
+                                    p.mb-0 Sistema de ventas desarrollado con Python
                             img.img-fluid(src='assets/img/portfolio-1.jpg', alt='...')
                     .col-lg-6
-                        a.portfolio-item(href='#!')
+                        a.portfolio-item(href='https://github.com/juanmadev5/gestionDeProductos')
                             .caption
                                 .caption-content
-                                    .h2 Ice Cream
-                                    p.mb-0 A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!
+                                    .h2 Gestor de productos
+                                    p.mb-0 Sencillo gestor de productos desarrollado con Python
                             img.img-fluid(src='assets/img/portfolio-2.jpg', alt='...')
                     .col-lg-6
-                        a.portfolio-item(href='#!')
+                        a.portfolio-item(href='https://github.com/juanmadev5/movies-tmdb-example')
                             .caption
                                 .caption-content
-                                    .h2 Strawberries
-                                    p.mb-0 Strawberries are such a tasty snack, especially with a little sugar on top!
+                                    .h2 Favorite Movies
+                                    p.mb-0 Buscador de peliculas, utiliza la API de TheMovieDataBase
                             img.img-fluid(src='assets/img/portfolio-3.jpg', alt='...')
                     .col-lg-6
-                        a.portfolio-item(href='#!')
+                        a.portfolio-item(href='https://github.com/juanmadev5/juanmadev5')
                             .caption
                                 .caption-content
-                                    .h2 Workspace
-                                    p.mb-0 A yellow workspace with some scissors, pencils, and other objects.
+                                    .h2 Me
+                                    p.mb-0 Portafolio personal desarrollado con HTML puro
                             img.img-fluid(src='assets/img/portfolio-4.jpg', alt='...')
 
         // Call to Action
         section.content-section.bg-primary.text-white
             .container.px-4.px-lg-5.text-center
-                h2.mb-4 The buttons below are impossible to resist...
-                a.btn.btn-xl.btn-light.me-4(href='#!') Click Me!
-                a.btn.btn-xl.btn-dark(href='#!') Look at Me!
+                h2.mb-4 Quieres ver más?
+                h4 Visita mi cuenta de GitHub para explorar más proyectos.
+                a.btn.btn-xl.btn-light.mt-4(href='#!') GitHub
 
-        // Map
-        #contact.map
-            iframe(src='https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A&output=embed')
-            br
-            small
-                a(href='https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A')
+                // Contact Form
+        section#contact.content-section.bg-light
+            .container.px-4.px-lg-5
+                .content-section-heading.text-center
+                    h2.text-secondary.mb-4 Formulario de Contacto
+                    p.text-muted.mb-5 Deja tu mensaje y me pondré en contacto contigo a la brevedad.
+                form
+                    .mb-3
+                        label(for='name') Tu nombre
+                        input.form-control(type='text' id='name' placeholder='Ingresa tu nombre' required)
+                    .mb-3
+                        label(for='email') Tu correo electrónico
+                        input.form-control(type='email' id='email' placeholder='Ingresa tu correo electrónico' required)
+                    .mb-3
+                        label(for='message') Tu mensaje
+                        textarea.form-control(id='message' rows='4' placeholder='Escribe tu mensaje aquí' required)
+                    button.btn.btn-primary(type='submit') Enviar mensaje
 
+     
         // Footer
         footer.footer.text-center
             .container.px-4.px-lg-5
                 ul.list-inline.mb-5
                     li.list-inline-item
-                        a.social-link.rounded-circle.text-white.mr-3(href='#!')
-                            i.icon-social-facebook
+                        a.social-link.rounded-circle.text-white.mr-3(href='https://www.linkedin.com/in/juan-manuel-vel%C3%A1zquez-ba8a342ba/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')
+                            i.icon-social-linkedin
                     li.list-inline-item
-                        a.social-link.rounded-circle.text-white.mr-3(href='#!')
-                            i.icon-social-twitter
-                    li.list-inline-item
-                        a.social-link.rounded-circle.text-white(href='#!')
+                        a.social-link.rounded-circle.text-white(href='https://github.com/juanmadev5')
                             i.icon-social-github
-                p.text-muted.small.mb-0 Copyright &copy; Your Website 2023
+                p.text-muted.small.mb-0 Creado por Juan Manuel Velázquez
 
         // Scroll to Top Button
         a.scroll-to-top.rounded(href='#page-top')
